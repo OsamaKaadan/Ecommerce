@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  font-family: "Open Sans", sans-serif;
+
+
+}
+
+.border {
+  border: 2px solid red !important;
+}
+
+.myButton {
+  border-radius: 5px !important;
+  border: 1px solid #888 !important;
+
+  text-transform: capitalize !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+
+  font-size: 16px !important;
+
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+  width: 0.88rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #292c3b;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  background-color: #d4d4d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* for Firefox */
+html {
+  scrollbar-color: #777 #3d4a59;
+}
+
+html, body {
+  scroll-behavior: smooth !important;
+  --scroll-behavior: smooth !important;
+}
+
+.logo {
+  width: 3rem;
+  display: flex;
+  margin-top: 3px;
+  margin-Bottom: 4px;
+  margin-right: 8px;
+  background: white;
+  border-radius: 30%;
+}
+
